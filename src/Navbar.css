@@ -1,0 +1,91 @@
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: static;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar_logo {
+    display: flex;
+    align-items: center;
+    margin: o 25px;
+    margin-left: 20px;
+}
+
+.navbar_logo_img {
+    color: orange;
+    margin-right: 10px;
+}
+
+.navbar_title {
+    text-decoration: none;
+    border: 0;
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    margin-right: 10px;
+    font-size: 40px;
+}
+.navbar_search {
+    display: flex;
+    flex: 1; 
+    /* increase size of input */
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 10px;
+
+}
+
+.navbar_search_input {
+    height: 13px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.navbar_search_icon {
+    padding: 5px;
+    height: 20px;
+    /* !important */
+    background-color: orange;
+
+}
+
+
+.navbar_itom {
+    margin-right: 10px;
+    /* border: 1px solid; */
+    display: flex;
+    margin-left: 20px;
+
+
+}
+
+
+.navbar_itom_common {
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 1px splid red; */
+    
+}
+
+
+
+.Shopping_cart_icon {
+    color: orange;
+    padding: 10px;
+
+}
+.navbar_itom1,
+.navbar_itom2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.shopping_cart_count {
+    color: white;
+}
